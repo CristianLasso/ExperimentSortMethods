@@ -23,8 +23,23 @@ namespace SortMethodsTest
 
         }
 
+        void Scenary2()
+        {
+            sm = new SortingMethods();
+            int[] arr = { 12, 11, 13, 5, 6, 7, 2, 1, 8, 25 };
+            array2 = new int[arr.Length];
+            array = new int[arr.Length];
+
+            for (int i = 0; i < array.Length; i++)
+            {
+                array[i] = arr[i] ;
+                array2[i] = arr[i];
+            }
+
+        }
+
         [TestMethod]
-        public void InsertionTest1()
+        public void SelectionTest1()
         {
             Scenary1();
             sm.QuickSort(array);
@@ -34,14 +49,35 @@ namespace SortMethodsTest
         }
 
         [TestMethod]
-        public void QuickSortTest1()
+        public void SelectionTest2()
         {
-            Scenary1();
-            sm.QuickSort(array);
+            Scenary2();
+            sm.BubbleSort(array);
             sm.SelectionSort(array2);
 
             Assert.AreEqual(array[1], array2[1]);
         }
+
+        [TestMethod]
+        public void GnomeSortTest1()
+        {
+            Scenary1();
+            sm.QuickSort(array);
+            sm.GnomeSort(array2, array2.Length);
+
+            Assert.AreEqual(array[1], array2[1]);
+        }
+
+        [TestMethod]
+        public void GnomeSortTest2()
+        {
+            Scenary2();
+            sm.QuickSort(array);
+            sm.GnomeSort(array2, array2.Length);
+
+            Assert.AreEqual(array[1], array2[1]);
+        }
+
 
 
     }
