@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Experiment
 {
-    class SortingMethods
+    public class SortingMethods
     {
 
         public SortingMethods() {
@@ -211,5 +211,28 @@ namespace Experiment
                 heapify(arr, n, largest);
             }
         }
+
+        public void QuickSort(int[] arr)
+        {
+
+            for (int i = 1; i < arr.Length; i++)
+            {
+                int val = arr[i];
+                int flag = 0;
+                for (int j = i - 1; j >= 0 && flag != 1;)
+                {
+                    if (val < arr[j])
+                    {
+                        arr[j + 1] = arr[j];
+                        j--;
+                        arr[j + 1] = val;
+                    }
+                    else flag = 1;
+                }
+            }
+
+        }
     }
+
+  
 }
