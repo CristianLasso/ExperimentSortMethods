@@ -16,6 +16,7 @@ namespace Experiment
             //sm.QuickSort(arr, 0, arr.Length-1);
             //sm.MergeSort(arr, 0, arr.Length-1);
             //sm.HeapSort(arr);
+            //sm.GnomeSort(arr, arr.Length);
 
 
 
