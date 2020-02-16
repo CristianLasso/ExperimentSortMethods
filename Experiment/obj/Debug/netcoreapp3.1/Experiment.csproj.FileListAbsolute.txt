@@ -1,4 +1,3 @@
-
 C:\Users\jdjim\Documents\Proyectos U\ExperimentSortMethods\Experiment\obj\Debug\netcoreapp3.1\Experiment.csprojAssemblyReference.cache
 C:\Users\jdjim\Documents\Proyectos U\ExperimentSortMethods\Experiment\obj\Debug\netcoreapp3.1\Experiment.AssemblyInfoInputs.cache
 C:\Users\jdjim\Documents\Proyectos U\ExperimentSortMethods\Experiment\obj\Debug\netcoreapp3.1\Experiment.AssemblyInfo.cs
@@ -10,7 +9,6 @@ C:\Users\jdjim\Documents\Proyectos U\ExperimentSortMethods\Experiment\bin\Debug\
 C:\Users\jdjim\Documents\Proyectos U\ExperimentSortMethods\Experiment\bin\Debug\netcoreapp3.1\Experiment.pdb
 C:\Users\jdjim\Documents\Proyectos U\ExperimentSortMethods\Experiment\obj\Debug\netcoreapp3.1\Experiment.dll
 C:\Users\jdjim\Documents\Proyectos U\ExperimentSortMethods\Experiment\obj\Debug\netcoreapp3.1\Experiment.pdb
-
 C:\Users\Militarrr\Documents\GitHub\ExperimentSortMethods\Experiment\bin\Debug\netcoreapp3.1\Experiment.exe
 C:\Users\Militarrr\Documents\GitHub\ExperimentSortMethods\Experiment\bin\Debug\netcoreapp3.1\Experiment.deps.json
 C:\Users\Militarrr\Documents\GitHub\ExperimentSortMethods\Experiment\bin\Debug\netcoreapp3.1\Experiment.runtimeconfig.json
@@ -22,4 +20,14 @@ C:\Users\Militarrr\Documents\GitHub\ExperimentSortMethods\Experiment\obj\Debug\n
 C:\Users\Militarrr\Documents\GitHub\ExperimentSortMethods\Experiment\obj\Debug\netcoreapp3.1\Experiment.AssemblyInfo.cs
 C:\Users\Militarrr\Documents\GitHub\ExperimentSortMethods\Experiment\obj\Debug\netcoreapp3.1\Experiment.dll
 C:\Users\Militarrr\Documents\GitHub\ExperimentSortMethods\Experiment\obj\Debug\netcoreapp3.1\Experiment.pdb
-
+D:\CRISTIAN\Documents\GitHub\ExperimentSortMethods\Experiment\bin\Debug\netcoreapp3.1\Experiment.exe
+D:\CRISTIAN\Documents\GitHub\ExperimentSortMethods\Experiment\bin\Debug\netcoreapp3.1\Experiment.deps.json
+D:\CRISTIAN\Documents\GitHub\ExperimentSortMethods\Experiment\bin\Debug\netcoreapp3.1\Experiment.runtimeconfig.json
+D:\CRISTIAN\Documents\GitHub\ExperimentSortMethods\Experiment\bin\Debug\netcoreapp3.1\Experiment.runtimeconfig.dev.json
+D:\CRISTIAN\Documents\GitHub\ExperimentSortMethods\Experiment\bin\Debug\netcoreapp3.1\Experiment.dll
+D:\CRISTIAN\Documents\GitHub\ExperimentSortMethods\Experiment\bin\Debug\netcoreapp3.1\Experiment.pdb
+D:\CRISTIAN\Documents\GitHub\ExperimentSortMethods\Experiment\obj\Debug\netcoreapp3.1\Experiment.csprojAssemblyReference.cache
+D:\CRISTIAN\Documents\GitHub\ExperimentSortMethods\Experiment\obj\Debug\netcoreapp3.1\Experiment.AssemblyInfoInputs.cache
+D:\CRISTIAN\Documents\GitHub\ExperimentSortMethods\Experiment\obj\Debug\netcoreapp3.1\Experiment.AssemblyInfo.cs
+D:\CRISTIAN\Documents\GitHub\ExperimentSortMethods\Experiment\obj\Debug\netcoreapp3.1\Experiment.dll
+D:\CRISTIAN\Documents\GitHub\ExperimentSortMethods\Experiment\obj\Debug\netcoreapp3.1\Experiment.pdb
