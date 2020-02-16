@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\USUARIO\\.nuget\\packages\\": {}
+    "C:\\Users\\jdjim\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CRISTIAN\\Documents\\GitHub\\ExperimentSortMethods\\Experiment\\Experiment.csproj",
+      "projectUniqueName": "C:\\Users\\jdjim\\Documents\\Proyectos U\\ExperimentSortMethods\\Experiment\\Experiment.csproj",
       "projectName": "Experiment",
-      "projectPath": "D:\\CRISTIAN\\Documents\\GitHub\\ExperimentSortMethods\\Experiment\\Experiment.csproj",
-      "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-      "outputPath": "D:\\CRISTIAN\\Documents\\GitHub\\ExperimentSortMethods\\Experiment\\obj\\",
+      "projectPath": "C:\\Users\\jdjim\\Documents\\Proyectos U\\ExperimentSortMethods\\Experiment\\Experiment.csproj",
+      "packagesPath": "C:\\Users\\jdjim\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jdjim\\Documents\\Proyectos U\\ExperimentSortMethods\\Experiment\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jdjim\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -14,31 +14,86 @@ namespace SortMethodsTest
 
         void Scenary1() {
             sm = new SortingMethods();
-            array = new int[6];
-            array2 = new int[6];
+           
 
-            //array = new int[1000];
-            //array = generarNumerosNoRepetidos(array);
+            array = new int[10];
+            array2 = new int[10];
+            array = generate(array);
 
-            for (int i=0;i<array.Length;i++) {
-                array[i] = i + 7 * i;
-                array2[i] = i + 7 * i;
-            }
+            array2 = array;
 
         }
 
         void Scenary2()
         {
             sm = new SortingMethods();
-            int[] arr = { 12, 11, 13, 5, 6, 7, 2, 1, 8, 25 };
-            array2 = new int[arr.Length];
-            array = new int[arr.Length];
+            array = new int[100];
+            array2 = new int[100];
+            array = generate(array);
 
-            for (int i = 0; i < array.Length; i++)
-            {
-                array[i] = arr[i] ;
-                array2[i] = arr[i];
+            array2 = array;
+
+        }
+
+        void Scenary3()
+        {
+            sm = new SortingMethods();
+            array = new int[100];
+            array2 = new int[100];
+
+            for (int i = 0; i < array.Length;i++) {
+
+                array[i] = i+1;
             }
+
+            array2 = array;
+
+        }
+
+        void Scenary4()
+        {
+            sm = new SortingMethods();
+            array = new int[10];
+            array2 = new int[10];
+
+            for (int i = 0; i < array.Length;i++) {
+
+                array[i] = i + 1;
+            }
+
+            array2 = array;
+
+        }
+
+        void Scenary5()
+        {
+            sm = new SortingMethods();
+            array = new int[100];
+            array2 = new int[100];
+
+            for (int i = 100; i > 0; i--)
+            {
+
+                array[i-1] = i;
+            }
+
+            array2 = array;
+
+        }
+
+        void Scenary6()
+        {
+            sm = new SortingMethods();
+            array = new int[10];
+            array2 = new int[10];
+
+            for (int i = 10; i > 0; i--)
+            {
+
+                array[i - 1] = i;
+            }
+
+            array2 = array;
 
         }
 
@@ -49,7 +104,9 @@ namespace SortMethodsTest
             sm.QuickSort(array);
             sm.SelectionSort(array2);
 
-            Assert.AreEqual(array[1],array2[1]);
+            Assert.AreEqual(array[1], array2[1]);
+            Assert.IsTrue(array2[1]<array2[2]);
+            
         }
 
         [TestMethod]
@@ -60,6 +117,55 @@ namespace SortMethodsTest
             sm.SelectionSort(array2);
 
             Assert.AreEqual(array[1], array2[1]);
+            Assert.IsTrue(array2[1] < array2[2]);
+        }
+
+        [TestMethod]
+        public void SelectionTest3()
+        {
+            Scenary3();
+            sm.QuickSort(array);
+            sm.SelectionSort(array2);
+
+            Assert.AreEqual(array[1], array2[1]);
+            Assert.IsTrue(array2[1] < array2[2]);
+
+        }
+
+        [TestMethod]
+        public void SelectionTest4()
+        {
+            Scenary4();
+            sm.BubbleSort(array);
+            sm.SelectionSort(array2);
+
+            Assert.AreEqual(array[1], array2[1]);
+            Assert.IsFalse(array2[1] > array2[2]);
+        }
+
+        [TestMethod]
+        public void SelectionTest5()
+        {
+            Scenary5();
+            sm.QuickSort(array);
+            sm.SelectionSort(array2);
+
+            Assert.AreEqual(array[1], array2[1]);
+            
+            Assert.IsFalse(array2[1] > array2[2]);
+
+        }
+
+        [TestMethod]
+        public void SelectionTest6()
+        {
+            Scenary6();
+            sm.BubbleSort(array);
+            sm.SelectionSort(array2);
+
+            Assert.AreEqual(array[1], array2[1]);
+         
+            Assert.IsFalse(array2[1] > array2[2]);
         }
 
         [TestMethod]
@@ -80,6 +186,54 @@ namespace SortMethodsTest
             sm.GnomeSort(array2, array2.Length);
 
             Assert.AreEqual(array[1], array2[1]);
+        }
+
+        [TestMethod]
+        public void GnomeSortTest3()
+        {
+            Scenary3();
+            sm.BubbleSort(array);
+            sm.GnomeSort(array2, array2.Length);
+
+            Assert.AreEqual(array[1], array2[1]);
+            Assert.IsTrue(array2[1] < array2[2]);
+
+        }
+
+        [TestMethod]
+        public void GnomeSortTest4()
+        {
+            Scenary4();
+            sm.BubbleSort(array);
+            sm.GnomeSort(array2, array2.Length);
+
+            Assert.AreEqual(array[1], array2[1]);
+            Assert.IsFalse(array2[1] > array2[2]);
+        }
+
+        [TestMethod]
+        public void GnomeSortTest5()
+        {
+            Scenary5();
+            sm.BubbleSort(array);
+            sm.GnomeSort(array2, array2.Length);
+
+            Assert.AreEqual(array[1], array2[1]);
+
+            Assert.IsFalse(array2[1] > array2[2]);
+
+        }
+
+        [TestMethod]
+        public void GnomeSortTest6()
+        {
+            Scenary6();
+            sm.BubbleSort(array);
+            sm.GnomeSort(array2, array2.Length);
+
+            Assert.AreEqual(array[1], array2[1]);
+
+            Assert.IsFalse(array2[1] > array2[2]);
         }
 
         /**

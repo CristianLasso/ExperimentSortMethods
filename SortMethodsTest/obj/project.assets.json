@@ -6891,19 +6891,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\USUARIO\\.nuget\\packages\\": {}
+    "C:\\Users\\jdjim\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CRISTIAN\\Documents\\GitHub\\ExperimentSortMethods\\SortMethodsTest\\SortMethodsTest.csproj",
+      "projectUniqueName": "C:\\Users\\jdjim\\Documents\\Proyectos U\\ExperimentSortMethods\\SortMethodsTest\\SortMethodsTest.csproj",
       "projectName": "SortMethodsTest",
-      "projectPath": "D:\\CRISTIAN\\Documents\\GitHub\\ExperimentSortMethods\\SortMethodsTest\\SortMethodsTest.csproj",
-      "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-      "outputPath": "D:\\CRISTIAN\\Documents\\GitHub\\ExperimentSortMethods\\SortMethodsTest\\obj\\",
+      "projectPath": "C:\\Users\\jdjim\\Documents\\Proyectos U\\ExperimentSortMethods\\SortMethodsTest\\SortMethodsTest.csproj",
+      "packagesPath": "C:\\Users\\jdjim\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jdjim\\Documents\\Proyectos U\\ExperimentSortMethods\\SortMethodsTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jdjim\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6916,8 +6916,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\CRISTIAN\\Documents\\GitHub\\ExperimentSortMethods\\Experiment\\Experiment.csproj": {
-              "projectPath": "D:\\CRISTIAN\\Documents\\GitHub\\ExperimentSortMethods\\Experiment\\Experiment.csproj"
+            "C:\\Users\\jdjim\\Documents\\Proyectos U\\ExperimentSortMethods\\Experiment\\Experiment.csproj": {
+              "projectPath": "C:\\Users\\jdjim\\Documents\\Proyectos U\\ExperimentSortMethods\\Experiment\\Experiment.csproj"
             }
           }
         }
